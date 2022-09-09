@@ -52,7 +52,7 @@ main .show__me {
 
 .forget__your {
     position: relative;
-    margin-right: 150px;
+    margin-right: 190px;
 }
 
 .forget__your h2 {
@@ -189,34 +189,41 @@ main .show__me {
     font-weight: bold;
 }
 
-.tulisan-kotak-1 {
+.tulisan-kotak {
     position: absolute;
     bottom: 0px;
     left: 0px;
     color: #152C5B;
-    border-radius: 30px;
-
+    margin-left: 25px;
+    margin-bottom: 10px;
 }
 
-.tulisan-kotak-1 p {
-    color: #152C5B;
-    position: absolute;
-    bottom: 830px;
-    width: 140px;
-    left: 45px;
-    Height: 16px;
+.tulisan-kotak p {
+    padding-bottom: 25px;
+    margin: auto;
 }
 
-.tulisan-kotak-1 h4 {
-    position: absolute;
-    bottom: 840px;
-    left: 25px;
-    width: 180px;
+.tulisan-kotak h4 {
+    margin: auto;
 }
+
+
+.backyard-kontainer {
+    margin-top: 90px;
+    width: max-content;
+    padding: auto;
+    padding-left: auto;
+    padding-right: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 
 .backyard {
+    position: relative;
     display: flex;
     flex-direction: row;
+    margin-right: 30px;
 }
 
 .gambar-backyard1 {
@@ -231,5 +238,155 @@ main .show__me {
 
 .gambar-backyard3 {
     position: relative;
+    margin-right: 30px;
+}
+
+.gambar-backyard4 {
+    position: relative;
+    margin-right: 30px;
+}
+
+.hotel-kontainer {
+    margin-top: 90px;
+    width: max-content;
+    padding: auto;
+    padding-left: auto;
+    padding-right: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.hotel {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+.gambar-hotel1 {
+    position: relative;
+    margin-right: 30px;
+}
+
+.gambar-hotel2 {
+    position: relative;
+    margin-right: 30px;
+}
+
+.gambar-hotel3 {
+    position: relative;
+    margin-right: 30px;
+}
+
+.gambar-hotel4 {
+    position: relative;
+    margin-right: 30px;
+}
+
+.apartment-kontainer {
+    margin-top: 90px;
+    width: max-content;
+    padding: auto;
+    padding-left: auto;
+    padding-right: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 90px;
+}
+
+
+.apartment {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+
+}
+
+.gambar-apartment1 {
+    position: relative;
+    margin-right: 30px;
+}
+
+.gambar-apartment2 {
+    position: relative;
+    margin-right: 30px;
+}
+
+.gambar-apartment3 {
+    position: relative;
+    margin-right: 30px;
+}
+
+.gambar-apartment4 {
+    position: relative;
+    margin-right: 30px;
+}
+
+.happy-family {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    padding: auto;
+    padding-left: auto;
+    padding-right: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.happy1 {
+    flex-grow: 1;
+    margin: auto;
+    padding: auto;
+    margin-left: 50px;
+    margin-top: 75px;
+    border-radius: 15px;
+}
+
+.gambar-bintang {
+    display: flex;
+    flex-direction: row;
+}
+
+.happy1 button {
+    background-color: #3252DF;
+    color: white;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+.footer-atas {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #E5E5E5;
+    flex-direction: column;   
+}
+
+.bawahan {
+    flex-grow: 1;
+    margin-left: 30px;
+}
+
+.ending {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-ending {
+    flex-grow: 1;
+    border-style: solid;
+
+}
+
+.terakhir{
+    display: flex;
     flex-direction: row;
 }
